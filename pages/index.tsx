@@ -51,8 +51,12 @@ export default function Home() {
           />
         </div>
 
-        <Footer title="indexだよー"/>
+        <Footer title="indexだよー">
+          foo
+        </Footer>
       </main>
     </>
   )
 }
+
+//

@@ -50,8 +50,7 @@ export default function Home() {
             priority
           />
         </div>
-
-        <Footer/>
+        <Footer />
       </main>
     </>
   )

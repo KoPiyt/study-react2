@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Footer(props) {
   return (
         <div className={styles.grid}>
           <a
@@ -15,7 +15,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              16:32 <span>-&gt;</span>
+              {props.title} <span>-&gt;</span>
             </h2> 
             <p>
               Find in-depth information about Next.js features and&nbsp;API.

@@ -50,7 +50,7 @@ export default function Home() {
             priority
           />
         </div>
-        <Footer />
+        <Footer title="aboutだよー" />
       </main>
     </>
   )
